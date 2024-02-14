@@ -76,5 +76,4 @@ let user2=user  //now both user2 and user are pointing to the heap containing ob
 user2.email="yashyc7@gmail.com" //reference value will be changed for the both now 
 console.log(user.email)
 console.log(user2.email)
-
-// hey i have edited this using the codespaces and using the another account 
+//hey this code was edited using the github
