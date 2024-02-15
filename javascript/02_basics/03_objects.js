@@ -66,3 +66,6 @@ console.log(`second greeting for js user ${this.name} `)
 }
 
 console.log(JsUser.greetingTwo())
+
+
+//ok done now we will read the another examples on the next video
