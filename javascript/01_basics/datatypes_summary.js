@@ -1,3 +1,5 @@
+//solving the merging branch main 
+
 //primitive datatypes  or call by value datatypes
 // 7 categories are there : String , Int , Number , Boolean , null , undefined  , Symbol , BigInt These are also called the call by value since the copy of the original datatype is provided .
 
