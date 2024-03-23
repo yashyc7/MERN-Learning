@@ -1,5 +1,7 @@
 //singleton(constructor) and the literal declereation of the object
 
+const { log } = require("@tensorflow/tfjs-node");
+
 //In this session we are going to use the literal declereation
 
 const JsUser = {
@@ -30,3 +32,36 @@ const JsUser2 = {
 };
 
 console.log(JsUser[mySymbol])
+
+
+//changing values in the object 
+JsUser['age']=43
+
+//Object.freeze(JsUser)  //now any changes can't be applied on the JsUser object 
+
+//Adding the function in the objectss
+
+
+
+JsUser .greeting= function()
+{
+
+console.log("Hello Js user ...")
+
+
+
+}
+
+console.log(JsUser.gretting)//returns the reference of the funcntion 
+//first unfreeze the object .. 
+console.log(JsUser.greeting()) //executes the fucntion 
+
+
+
+JsUser.greetings2=function()
+{
+
+console.log(`Hello js user ,${this.name} your college name is  ${this["College Name"] } and your age is ${this.age} ` )
+
+
+}
