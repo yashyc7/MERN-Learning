@@ -4,5 +4,6 @@
     "terminal.integrated.fontFamily": "JetBrains Mono",
     "chat.editor.fontFamily": "JetBrains Mono",
     "terminal.integrated.mouseWheelZoom": false,
-    "emmet.useInlineCompletions": true
+    "emmet.useInlineCompletions": true,
+    "editor.wordWrap": "on"
 }

@@ -1,0 +1,25 @@
+h1{
+    color: red;
+}  
+
+h1,h3{
+    color:red;
+}
+
+/* this is my comment  */
+
+#div22{
+    color: orange;
+    margin: 10px;
+}
+
+p{
+    color: aqua;
+}
+
+
+.special_heading{
+    color: blueviolet;
+}
+
+

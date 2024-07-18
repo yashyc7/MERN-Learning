@@ -1,0 +1,29 @@
+p {
+  color: aqua;
+}
+/* for normal tags this method is used  */
+
+#first p {
+  color: orangered;
+} /* # can be used for the id of the particular tags */
+
+/* now for class selector we use dot */
+
+.random_text {
+  color: red;
+}
+
+h1,
+h2,
+h3 {
+  color: green;
+} /*combining three tags at once using the comma*/
+
+#main {
+  background-color: aqua;
+  color: blue;
+  background-image: ;
+  font-family: Dancing Script,cursive;
+
+ 
+}

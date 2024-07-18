@@ -1,0 +1,32 @@
+#heading h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+
+#inner{
+    font-size: 10px;
+
+}
+
+#outer{
+    font-size:25px;
+}
+*{
+  margin: 0px; padding: 0;
+
+}
+
+#first{
+  background-color: red;
+  height: 50px;
+  width: 200px;
+
+}
+
+#second{
+  width: 50%;
+  background-color: green;
+
+}
