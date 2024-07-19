@@ -1,0 +1,3 @@
+randomuserme api //for genreating the random api data for learning 
+
+jsonformator.org  // for study the json response genreated by the api  such as the data can be read into the tree or the code form
