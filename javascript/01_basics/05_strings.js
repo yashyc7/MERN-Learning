@@ -44,3 +44,6 @@ console.log(url.includes('hitesh')) //Returns true if searchString appears as a 
 
 
 console.log(url.split('-'))
+
+const altername="Yashwant Singh Chauhan"
+console.log(altername.replace("Yashwant","Yash"))

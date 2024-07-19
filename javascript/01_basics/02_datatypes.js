@@ -33,7 +33,5 @@ let isloggedIn= false
 // for example i have to send the measurement of the tempreatures but the machine of measurement has broken out and the data requested will be sended as the null not the zero . because the zero is a tempreature . 
 //symbol  is used for finding the uniqueness in the react 
 
-
-
 console.log(typeof(null)); // null is an object 
 // but other datatypes is an function 

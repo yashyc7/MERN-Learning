@@ -1,16 +1,16 @@
 let  score = "33"
 
-console.log(typeof(score));
+console.log(typeof(score)); //string
 
-let valueInNumber = Number("33abc")
+let valueInNumber = Number("33abc") 
 
-console.log(typeof valueInNumber)
+console.log(typeof valueInNumber)   //number
 
 
-console.log(valueInNumber)  //output is the NaN since it means the "not a number ". 
+console.log(valueInNumber)  //output is the NaN since it means the "not a number " . 
 
 let value = null 
-console.log(typeof(value) )
+console.log(typeof(value) )  //object 
 
 
 // " 33 " => 33
@@ -18,7 +18,7 @@ console.log(typeof(value) )
 // true => 1; false => 0 
 let isLoggedIn = true
 isLoggedIn=Number(true)
-console.log(isLoggedIn)
+console.log(isLoggedIn)  //1
 
 // 1 => in boolean it is converted to the true 
 // and for the zero the value is the false
@@ -26,13 +26,13 @@ console.log(isLoggedIn)
 
 let someNumber =33 
 let stringNumber= String(someNumber)
-console.log(stringNumber)
-console.log(typeof(stringNumber))
+console.log(stringNumber) //33
+console.log(typeof(stringNumber)) //string
 // ************************OPEREATIONS*******************
 
 let value1=3
-let negvalue = -value
-console.log(negvalue)
+let negvalue = -value1
+console.log(negvalue) //-3
 
 
 let str1="hello" 
@@ -60,3 +60,4 @@ num1=num2=num3=2+2
 let gameCounter=100
 gameCounter++
 console.log(gameCounter)
+//101
