@@ -22,3 +22,9 @@ console.log(c); //value of var become changed
 // no error for redeclearation inside the sepreate scope of the if
 
 // The var statement declares function-scoped or globally-scoped variables, if we also decleare them in the if scope it can also change the value of the variable c outside the scope of c
+
+
+
+
+
+//in browser environment the scope is different and in text editor node enviroment the scope is different . 
